@@ -39,7 +39,7 @@ app.post('/login',userController.postLogin);
 app.get('/applicants',auth,applicantController.getApplicants);
 app.post('/jobs/:id',uploadFile.single('resumePath'),applicantController.postApplication);
 app.get('/logout',userController.logout);
-// app.listen(8000,()=>{
-//     console.log('server at 8000')
-// });
-module.exports=app;
+app.listen(8000,()=>{
+    console.log('server at 8000')
+});
+// module.exports=app;
