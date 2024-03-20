@@ -13,7 +13,7 @@ class ApplicantController{
         const id= req.params.id;
         const jobFound= jobModel.getByID(id);
         if(jobFound){
-            res.render('jobDetail',{job:jobFound});
+            res.render('success',{job:jobFound});
         }else{
             res.status(401).send('job not found');
         }

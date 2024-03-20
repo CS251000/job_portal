@@ -18,20 +18,20 @@ export default class ApplicantModel{
     }
 }
 var applicants=[
-    // new ApplicantModel(
-    //     1,
-    //     'Chirag',
-    //     'chiragsinghal04@gmail.com',
-    //     9818907290,
-    //     "https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ba8c7f12c7d3a04dd5ae1a2/images/5fc8f3204664bd7a123ea5a9/file-MdDsf2cTRb.png"
+    new ApplicantModel(
+        1,
+        'Chirag',
+        'chiragsinghal04@gmail.com',
+        9818907290,
+        "https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ba8c7f12c7d3a04dd5ae1a2/images/5fc8f3204664bd7a123ea5a9/file-MdDsf2cTRb.png"
 
-    // ),
-    // new ApplicantModel(
-    //     2,
-    //     'Ashish',
-    //     'ashish@gmail.com',
-    //     9999993478,
-    //     "https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ba8c7f12c7d3a04dd5ae1a2/images/5fc8f3204664bd7a123ea5a9/file-MdDsf2cTRb.png"
-    // )
+    ),
+    new ApplicantModel(
+        2,
+        'Ashish',
+        'ashish@gmail.com',
+        9999993478,
+        "https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ba8c7f12c7d3a04dd5ae1a2/images/5fc8f3204664bd7a123ea5a9/file-MdDsf2cTRb.png"
+    )
 
 ];
